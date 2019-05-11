@@ -1,18 +1,6 @@
-var average = 0;
+var a = 7;
+var b = 5;
 
-function getAverage(a, b) {
-    
-    var average = (a + b) / 2;
-    console.log(average);
-    return average;
-}
+console.log(a * b);
 
-var myResult = getAverage(8, 10);
-
-function logResult(){
-
-    console.log("the average is " + myResult + " inside the function");
-    
-};
-
-logResult();
+console.log(Math.PI);
